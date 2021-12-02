@@ -1,0 +1,60 @@
+.img_carousel {
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    position: absolute;
+    color: rgb(243, 239, 239);
+    font-size: 9vw;
+    top: 30vh;
+    left: 11vw;
+    margin: 0;
+}
+
+.card-title,
+.card-text {
+    font-family: 'Lobster', cursive;
+    color: #003049;
+}
+
+.card {
+    background-color: #E8F0FF;
+}
+
+.header_ {
+    font-family: "Cinzel";
+    border-bottom: 2px solid white;
+}
+
+.cards_total {
+    background-color: #003049;
+}
+
+.body_ {
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+.card_ {
+    width: 50vw !important;
+}
+
+.title #name {
+    font-family: "Cinzel";
+    border-bottom: 2px solid white;
+}
+
+#caption {
+    font-family: "Estonia", serif;
+    font-size: 30px;
+}
+
+.carousel {
+    margin: 0;
+}
+
+.our_hostel_body {
+    background-color: #000;
+    margin: 0;
+}
