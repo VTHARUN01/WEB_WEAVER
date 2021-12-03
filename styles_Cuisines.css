@@ -6,7 +6,7 @@
 .title {
   position: absolute;
   color: rgb(243, 239, 239);
-  font-size: 9vw;
+  font-size: 7vw;
   top: 30vh;
   left: 11vw;
   margin: 0;
@@ -20,8 +20,11 @@
 
 .card {
   background-color: #e8f0ff;
+  border-radius: 16px;
 }
-
+.card_body_1 {
+  background-color: #003049;
+}
 .header_ {
   font-family: "Cinzel";
   border-bottom: 2px solid white;
@@ -35,11 +38,14 @@
   font-family: "Lobster", cursive;
   font-size: 18px;
 }
-
 .card_ {
+  padding: 0 !important;
   width: 50vw !important;
 }
-
+.card-img-top:hover {
+  transform: scale(1.02);
+  transition: all 0.2s linear;
+}
 .title #name {
   font-family: "Cinzel";
   border-bottom: 2px solid white;
@@ -53,14 +59,23 @@
 .carousel {
   margin: 0;
 }
-.card-img-top:hover {
-  transform: scale(1.02);
-  transition: all 0.2s linear;
-}
+
 .our_hostel_body {
   background-color: #000;
   margin: 0;
 }
-.navbar-toggler {
-  color: white !important;
+.img_review {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.postion_img {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+@media only screen and (max-width: 768px) {
+  .media_ {
+    width: 0px;
+  }
 }
