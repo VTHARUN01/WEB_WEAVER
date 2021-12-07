@@ -8,7 +8,7 @@
   color: rgb(243, 239, 239);
   font-size: 9vw;
   top: 30vh;
-  left: 11vw;
+  left: 30vw;
   margin: 0;
 }
 
@@ -21,7 +21,9 @@
 .card {
   background-color: #e8f0ff;
 }
-
+.header__ {
+  font-family: "Cinzel";
+}
 .header_ {
   font-family: "Cinzel";
   border-bottom: 2px solid white;
@@ -33,7 +35,6 @@
 
 .body_ {
   font-family: "Lobster", cursive;
-  color: #e8f0ff;
   font-size: 18px;
 }
 
@@ -59,7 +60,7 @@
   transition: all 0.2s linear;
 }
 .our_hostel_body {
-  background-color: #003049;
+  background-color: #000;
   margin: 0;
 }
 .navbar-toggler {

@@ -29,7 +29,6 @@
   font-family: "Cinzel";
   border-bottom: 2px solid white;
 }
-
 .cards_total {
   background-color: #003049;
 }
@@ -68,6 +67,9 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+.img_ {
+  min-height: 500px !important;
 }
 .postion_img {
   display: flex !important;

@@ -1,0 +1,127 @@
+.img_carousel {
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  position: absolute;
+  color: rgb(243, 239, 239);
+  font-size: 9vw;
+  top: 30vh;
+  left: 11vw;
+  margin: 0;
+}
+
+.card-title,
+.card-text {
+  font-family: "Lobster", cursive;
+  color: #003049;
+}
+
+.card {
+  background-color: #e8f0ff;
+}
+
+.header_ {
+  font-family: "Cinzel";
+  border-bottom: 2px solid white;
+}
+
+.cards_total {
+  background-color: #003049;
+}
+
+.body_ {
+  font-family: "Lobster", cursive;
+  color: #e8f0ff;
+  font-size: 18px;
+}
+
+.card_ {
+  width: 50vw !important;
+}
+
+.title #name {
+  font-family: "Cinzel";
+  border-bottom: 2px solid white;
+}
+
+#caption {
+  font-family: "Estonia", serif;
+  font-size: 30px;
+}
+
+.carousel {
+  margin: 0;
+}
+.card-img-top:hover {
+  transform: scale(1.02);
+  transition: all 0.2s linear;
+}
+.our_hostel_body {
+  background-color: #003049;
+  margin: 0;
+}
+.navbar-toggler {
+  color: white !important;
+}
+.form_body {
+  margin-top: 40px;
+}
+label {
+  font-family: "Cinzel";
+}
+input {
+  border-radius: 8px;
+  margin: 20px;
+}
+.form_body_ {
+  margin-top: 100px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #003049 !important;
+  font-family: "Lobster", cursive;
+}
+input:hover,
+textarea:hover {
+  transform: scale(1.05);
+  transition: all 0.3s linear;
+}
+h2 {
+  font-family: "Cinzel";
+  transition: all 0.5s linear;
+}
+h2:hover {
+  animation: rotate 0.5s linear;
+}
+.border_ {
+  width: 400px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+.content_ {
+  margin-bottom: 20px;
+}
+.ul_ {
+  font-family: "Lobster", cursive;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .media_ {
+    width: 0px;
+  }
+  .form_body_ {
+    margin-top: 0px;
+  }
+}
