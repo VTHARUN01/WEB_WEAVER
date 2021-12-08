@@ -76,6 +76,19 @@
   justify-content: center !important;
   align-items: center !important;
 }
+a {
+  cursor: pointer;
+}
+.modal-title {
+  font-family: "Cinzel";
+  color: #003049;
+  font-size: 30px;
+}
+.modal-body {
+  font-family: "Lobster", cursive;
+  color: #003049;
+}
+
 @media only screen and (max-width: 768px) {
   .media_ {
     width: 0px;
