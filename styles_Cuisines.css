@@ -1,0 +1,96 @@
+.img_carousel {
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  position: absolute;
+  color: rgb(243, 239, 239);
+  font-size: 7vw;
+  top: 30vh;
+  left: 11vw;
+  margin: 0;
+}
+
+.card-title,
+.card-text {
+  font-family: "Lobster", cursive;
+  color: #003049;
+}
+
+.card {
+  background-color: #e8f0ff;
+  border-radius: 16px;
+}
+.card_body_1 {
+  background-color: #003049;
+}
+.header_ {
+  font-family: "Cinzel";
+  border-bottom: 2px solid white;
+}
+.cards_total {
+  background-color: #003049;
+}
+
+.body_ {
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+}
+.card_ {
+  padding: 0 !important;
+  width: 50vw !important;
+}
+.card-img-top:hover {
+  transform: scale(1.02);
+  transition: all 0.2s linear;
+}
+.title #name {
+  font-family: "Cinzel";
+  border-bottom: 2px solid white;
+}
+
+#caption {
+  font-family: "Estonia", serif;
+  font-size: 30px;
+}
+
+.carousel {
+  margin: 0;
+}
+
+.our_hostel_body {
+  background-color: #000;
+  margin: 0;
+}
+.img_review {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.img_ {
+  min-height: 500px !important;
+}
+.postion_img {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+a {
+  cursor: pointer;
+}
+.modal-title {
+  font-family: "Cinzel";
+  color: #003049;
+  font-size: 30px;
+}
+.modal-body {
+  font-family: "Lobster", cursive;
+  color: #003049;
+}
+
+@media only screen and (max-width: 768px) {
+  .media_ {
+    width: 0px;
+  }
+}
