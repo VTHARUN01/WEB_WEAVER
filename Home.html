@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Estonia&family=Source+Serif+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles_home.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top scroll_">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/Home.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars text-white"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="/Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/our_hotels.html">Our Hotels</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Cuisines.html" >Cuisines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Gallery.html" >Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/contactus.html" >Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/home_3.jpg" class="d-block img_carousel img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/home_2.jpg" class="d-block img_carousel img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/home_1.jpg" class="d-block img_carousel img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <div id="name" class="text-center">FUSION</div>
+        <div id="caption" class="text-center"><span class="text-white ">꧁</span>Die with memories, not dreams<span class="text-white">꧂</span></div>
+    </div>
+    <div style="background-color: #003049;">
+      <div class="home_body">
+          <div class="conatiner p-3">
+              <div class="display-1 text-white text-center header_ p-3 pb-1">WELCOME</div>
+              <div class="row row-content">
+                  <div class="col-md-4 order-md-first order-last offset-md-1">
+                      <div class="text-white p-3 body_ mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta similique architecto id ut debitis iusto? Non nulla nisi, consequatur aliquam eaque voluptas dolorum! Doloremque, maiores. Quasi ea quia nemo provident. Praesentium architecto minima similique
+                        eligendi corporis amet tempore beatae placeat? Consequatur rerum quo earum vero sit adipisci minus, iusto beatae illo at amet eveniet perferendis modi molestias deleniti voluptatum quidem? Placeat recusandae assumenda adipisci nesciunt
+                        illo architecto atque animi cum? Laboriosam officia expedita recusandae nisi debitis, rem facilis veritatis cupiditate eaque, voluptatibus tenetur ea, aspernatur qui tempore repellendus repellat sapiente?</div>
+                  </div>
+                  <div class="col-md-6 mt-3 text-center pt-3">
+                      <img src="images/home_4.jpg" class="img-thumbnail text-center" style="height: 90% ;">
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="card_information">
+        <div class="container">
+            <div class="header_">
+                <h1 class="">Check Availability</h1>
+            </div>
+              <form>
+                    <div class="row">
+                <div class="col-md-3">
+                    <label for="hotel" class="col-form-label col-12">Hotel</label>
+                    <input id="hotel" type="text"name="hotel" class="form-control col-12 mb-3" placeholder="Search For Hotel">
+                </div>
+                <div class="col-md-3">
+                    <label for="date" class="col-form-label col-12">Check-in Date</label>
+                    <input id="date" type="date" name="date" class="form-control col-12 mb-3" placeholder="Check-in Date">
+                </div>
+                <div class="col-md-3">
+                    <label for="date-out" class="col-form-label col-12">Check-out Date</label>
+                    <input id="date-out" type="date" name="date-out" class="form-control col-12 mb-3" placeholder="Check-in Date">
+                </div>
+                <div class="col-md-3">
+                    <label for="rooms" class="col-form-label col-12">Rooms</label>
+                    <input id="rooms" name="rooms" type="number" class="form-control col-12 mb-3" min=1 placeholder="Number of Rooms">
+                </div>
+            </div>
+            </form>
+            <div class="row m-3 text-center">
+                <button class="btn col-4 offset-3 col-md-3 offset-md-4 mb-3 form_button"> Check Availability</button>
+            </div>
+        </div>
+    </div>
+    <div class="card_information ">
+        <div class="container">
+            <div class="header_">
+                <h1 class="">Facilities</h1>
+            </div>
+              <form>
+                    <div class="row">
+                <div class="col-3">
+                    <div class="col-form-label col-12 text-center" style="font-size: 30px;"><span class="fa fa-coffee"></span></div>
+                    <div class="col-12 text-center text_" style="font-size: 20px;">Breakfast</div>
+                </div>
+                <div class="col-3">
+                    <div class="col-form-label col-12 text-center" style="font-size: 30px;"><span class="fa fa-hotel"></span></div>
+                    <div class="col-12 text-center text_" style="font-size: 20px;">Hotel</div>
+                </div>
+                <div class="col-3">
+                    <div class="col-form-label col-12 text-center" style="font-size: 30px;"><span class="fa fa-bicycle"></span></div>
+                    <div class="col-12 text-center text_" style="font-size: 20px;">Adventure</div>
+                </div>
+                <div class="col-3 mb-2">
+                    <div class="col-form-label col-12 text-center" style="font-size: 30px;"><span class="fa fa-gift"></span></div>
+                    <div class="col-12 text-center text_" style="font-size: 20px;"> Amenities</div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+      <div class="cards_total">
+        <div class="container">
+            <div class="display-1 text-center p-3 pb-1 header_ text-white">ROOMS</div>
+               <div class="row">
+                <div class="col-md-6 p-1">
+                    <div class="card m-3">
+                        <img class="card-img-top img-fluid " src="images/room_single.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-1">
+                    <div class="card m-3">
+                        <img class="card-img-top img-fluid" src="images/room_queen.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-1">
+                    <div class="card m-3">
+                        <img class="card-img-top img-fluid" src="images/room_triple.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-1">
+                    <div class="card m-3">
+                        <img class="card-img-top img-fluid" src="images/room_1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cards_total">
+        <div class="container">
+            <div class="display-1 text-center p-3 pb-1 header_ text-white">OFFERS</div>
+               <div class="row">
+                <div class="col-md-6 p-1">
+                    <div class="card m-3">
+                        <img class="card-img-top img-fluid " src="images/room_single.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-1">
+                    <div class="card m-3">
+                        <img class="card-img-top img-fluid" src="images/room_queen.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-1">
+                    <div class="card m-3">
+                        <img class="card-img-top img-fluid" src="images/room_triple.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-1">
+                    <div class="card m-3">
+                        <img class="card-img-top img-fluid" src="images/room_1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+
+</footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
