@@ -36,7 +36,9 @@ footer {
 .cards_total {
   background-color: #003049;
 }
-
+.card-title {
+  border-bottom: 1px ridge #003049;
+}
 .body_ {
   font-family: "Lobster", cursive;
   color: #e8f0ff;

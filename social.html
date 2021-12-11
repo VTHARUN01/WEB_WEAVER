@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
@@ -73,6 +74,13 @@ body{
     color: #003049;
 
 }
+footer {
+  border-top: 2px ridge white;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #003049;
+  color: white;
+}
     </style>
 
     
@@ -80,14 +88,14 @@ body{
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top scroll_">
         <div class="container-fluid">
-            <a class="navbar-brand text-white" href="/Home.html">Navbar</a>
+            <a class="navbar-brand text-white" style="width: 50px;" href="/index.html"><img src="images/fusion-.png" class="img-fluid" ></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fa fa-bars text-white"></span>
-            </button>
+        <span class="fa fa-bars"></span>
+      </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="/Home.html">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="/our_hotels.html">Our Hotels</a>
@@ -101,6 +109,18 @@ body{
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="/contactus.html" >Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/aboutus.html" >About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/membership.html" >Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/social.html" >Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/covid.html" >Covid Protocols</a>
                     </li>
                 </ul>
 
@@ -212,9 +232,7 @@ body{
                         <div class="media-body col-12 col-sm-8"
                            
                             <p class="d-none d-sm-block" style="margin-left:10px">We have built and are operating 20+ schools in rural areas of India. <br>
-
-
-                                Around 2000 students are getting benefit of education they deserve.
+                              Around 2000 students are getting benefit of education they deserve.
                             </p>
                         </div>
                     </div>
@@ -244,7 +262,46 @@ body{
     </div>
    </div>
 
-   
+   <footer class="footer">
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-3 col-md-2">
+                <ul class="list-unstyled" style="font-family: Lobster;">
+                    <li><a href="/index.html" class="nav-link text-white">Home</a></li>
+                    <li><a href="/aboutus.html" class="nav-link text-white" >About</a></li>
+                    <li><a href="./our_hotels.html" class="nav-link text-white">Our Hotel</a></li>
+                    <li><a href="./contactus.html" class="nav-link text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-2 offset-1 offset-md-1 col-md-2">
+                <ul class="list-unstyled" style="font-family: Lobster;">
+                    <li><a href="/Gallery.html" class="nav-link text-white active">Gallery</a></li>
+                    <li><a href="./Cuisines.html" class="nav-link text-white" >Cuisines</a></li>
+                    <li><a href="./membership.html" class="nav-link text-white">Membership</a></li>
+                    <li><a href="./social.html" class="nav-link text-white">Social Work</a></li>
+                </ul>
+            </div>
+            <div class="col-4 col-md-3 offset-2 offset-md-1">
+                <h5 style="font-family: Cinzel;border-bottom: 2px ridge white; width:100px" class="mb-3">Contacts</h5>
+                <address style="font-family: Lobster;">
+                    <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                    <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                    <i class="fa fa-envelope fa-lg"></i>:
+                    <a href="mailto:fusion@food.net" class="text-white mb-3">fusion@food.net</a><br>
+                    <i class="fab fa-whatsapp p-1"></i> <i class="fab fa-facebook p-1"></i><i class="fab fa-linkedin p-1"></i><i class="fab fa-twitter p-1"></i><i class="fab fa-youtube p-1"></i><i class="fab fa-instagram p-1"></i>
+                </address>
+            </div>
+            <div class="col-6 offset-4 col-md-3 offset-md-0">
+                <img src="images/fusion-.png" class="img-fluid" width="123px">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>© Copyright 2021 FUSION</p>
+            </div>
+        </div>
+    </div>
+</footer>
     
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
