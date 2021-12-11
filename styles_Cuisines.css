@@ -11,7 +11,13 @@
   left: 11vw;
   margin: 0;
 }
-
+footer {
+  border-top: 2px ridge white;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #003049;
+  color: white;
+}
 .card-title,
 .card-text {
   font-family: "Lobster", cursive;

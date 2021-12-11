@@ -106,6 +106,13 @@ h2:hover {
 .ul_ {
   font-family: "Lobster", cursive;
 }
+footer {
+  border-top: 2px ridge white;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #003049;
+  color: white;
+}
 @keyframes rotate {
   0% {
     transform: rotateX(0deg);
