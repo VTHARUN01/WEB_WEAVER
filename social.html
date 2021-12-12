@@ -28,7 +28,7 @@
         }
 
 .carousel-item {
-  height: 70vh;
+  height: 100vh;
 }
 
 .carousel-item img {
@@ -58,21 +58,38 @@
     flex-direction: column;
     align-self: center;
     border-radius: 8px ;
-    background-color: aliceblue;
+    background-color: white;
     color: #003049;
 }
 .rw{
   background-color: #003049;
-  color: aliceblue;
+  color: white;
 }
 body{
     background-color: #003049;
 }
 .edu{
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 5px;
     color: #003049;
 
+}
+h5{
+    border-bottom: 1px ridge #003049;
+}
+input{
+    border-radius: 8px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #003049 !important;
+  font-family: "Lobster", cursive;
+  padding: 3px;
+}
+input:hover,
+textarea:hover {
+  transform: scale(1.05);
+  transition: all 0.3s linear;
 }
 footer {
   border-top: 2px ridge white;
@@ -81,16 +98,22 @@ footer {
   background-color: #003049;
   color: white;
 }
+h1,h2,h3,h4,h5{
+    font-family: "Cinzel";
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+    padding-top: 10px ;
+}
     </style>
 
     
 </head>
-<body>
+<body >
     <nav class="navbar navbar-expand-lg navbar-light fixed-top scroll_">
         <div class="container-fluid">
             <a class="navbar-brand text-white" style="width: 50px;" href="/index.html"><img src="images/fusion-.png" class="img-fluid" ></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fa fa-bars"></span>
+        <span class="fa fa-bars text-white"></span>
       </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -135,17 +158,21 @@ footer {
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./img/akshay_patra.jpeg" class="d-block img_carousel img-fluid" alt="...">
+                <img src="./images/donate.jpg" class="d-block img_carousel img-fluid" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="./img/edu1.jpg" class="d-block img_carousel img-fluid" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="./img/Screenshot 2021-12-09 200945.png" class="d-block img_carousel img-fluid" alt="...">
+                <img src="./images/donate._1jpg.jpg" class="d-block img_carousel img-fluid" alt="...">
             </div>
         </div>
     </div><br><br>
-   <div class="container contain rw">
+    <div class="title">
+        <div id="name" class="text-center">SOCIAL </div>
+        <div id="caption" class="text-center"><span class="text-white ">꧁</span>Make World A Better Place<span class="text-white">꧂</span></div>
+    </div> 
+   <div class="container contain rw" style="font-family: Lobster;">
        <div class="row "><h1 style="text-align: center;">Toward A Better Future</h1></div>
     <div class="row row-content rw ">
         <div class=" col-12 col-md-6">
@@ -182,7 +209,7 @@ footer {
             <br><br><br>
             <div class="container"style="padding:10px; border-radius: 8px;border: solid snow;  box-shadow: 0px 0px 5px 2px #fff;" >
                 <div class="row"  >
-                    <h2 class="col-12">Helping Hand</h2>
+                    <h2 class="col-12" style="border-bottom: 2px ridge white;padding-bottom:10px ;">Helping Hand</h2>
                     <br>
                     <h4 class="col-12">Want to donate?</h4>
                 </div>
@@ -191,24 +218,24 @@ footer {
                     <form style="width: 100%;" >
                         <div>
                             <label class="col-3" for="">Name</label>
-                            <input class="col-7" type="text" name="name" id="">
+                            <input class="col-7" type="text" name="name" id="" placeholder="Name">
                         </div>
                         <div>
                             <label class="col-3" for="">Mobile No.</label>
-                            <input class="col-7" type="tel" name="mobile" id="">
+                            <input class="col-7" type="tel" name="mobile" id="" placeholder="Mobile Number">
                         </div>
                         
                         <div>
                             <label class="col-3" for="">Email</label>
-                            <input class="col-7" type="email" name="email" id="">
+                            <input class="col-7" type="email" name="email" id="" placeholder="Email">
                         </div>
                         <div>
                             <label class="col-3" for="">Amount</label>
-                            <input class="col-7" type="number" name="amount" id="">
+                            <input class="col-7" type="number" name="amount" id="" placeholder="Amount">
                         </div>
 
                         <div style="display: flex;">
-                            <button class="offset-3 col-2" style="transform: translateX(8px); color: #003049; background-color: aliceblue;" type="submit">Donate</button>
+                            <button class="offset-3 col-2 btn" style="transform: translateX(8px); color: #003049; background-color: white;" type="submit">Donate</button>
                             <p class=" col-12  offset-sm-1 col-sm-6" style="  font-size:small; justify-self: right; transform: translateY(50%);">Donation recipt will be sent to your email.</p>
                         </div>
                     </form>
