@@ -6,9 +6,9 @@
 .title {
   position: absolute;
   color: rgb(243, 239, 239);
-  font-size: 7vw;
+  font-size: 5vw;
   top: 30vh;
-  left: 11vw;
+  left: 20vw;
   margin: 0;
 }
 footer {
@@ -58,7 +58,7 @@ footer {
 
 #caption {
   font-family: "Estonia", serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .carousel {
@@ -98,5 +98,10 @@ a {
 @media only screen and (max-width: 768px) {
   .media_ {
     width: 0px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .title {
+    left: 10vw;
   }
 }
