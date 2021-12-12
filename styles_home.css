@@ -125,8 +125,8 @@ input::placeholder {
     width: 0px;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .title {
-    left: 20vw;
+    left: 10vw;
   }
 }
